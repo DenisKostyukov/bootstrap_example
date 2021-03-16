@@ -1,24 +1,21 @@
 @import "../css/grid.css";
+@import "../css/root.css";
 @import "../css/font.css";
+@import "../css/image.css";
+@import "../css/title.css";
+@import "../css/text.css";
 @import "../css/header.css";
 @import "../css/preview.css";
+@import "../css/main-screen.css";
+@import "../css/button.css";
+@import "../css/nav-mobile-btn.css";
+@import "../css/responsive.css";
+
 :root{
   font-size: 10px;
+  font-family: "Roboto";
   --gray-bg-color:#EEEFF1;
 }
 html, body{
   height: 100%;
-}
-.main-screen{
-  height: 100vh;
-  background-color: var(--gray-bg-color);
-}
-.img{
-  width: 100%;
-  height: 100%;
-}
-.title{
-  font-family:"Roboto";
-  font-weight: 500;
-  font-size: 3.2rem;
 }

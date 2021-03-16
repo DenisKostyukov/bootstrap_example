@@ -1,0 +1,9 @@
+.button{
+  background-color: var(--blue-color);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: var(--btn-text-color);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+}

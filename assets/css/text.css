@@ -1,0 +1,8 @@
+:root{
+  --text-color:#727272;
+}
+.text{
+  font-size: 1.6rem;
+  text-align: center;
+  color: var(--text-color);
+}

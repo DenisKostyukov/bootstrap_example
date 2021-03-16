@@ -29,10 +29,12 @@
 .justify-content-evenly,
 .align-content-start,
 .align-content-center,
+.align-content-end,
 .align-content-between,
 .align-content-around {
   display: flex;
 }
+
 .align-items-center {
   align-items: center;
 }
@@ -71,6 +73,9 @@
 }
 .align-content-around{
   align-content:space-around;
+}
+.align-content-end{
+  align-content:flex-end
 }
 .row {
   display: flex;

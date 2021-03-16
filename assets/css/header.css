@@ -1,14 +1,16 @@
 
 .header{
-  
-  --header-text-color:#34547A;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .logo{
   position: relative;
   top: -10px;
   font-family: "Revalia";
   font-size: 4.8rem;
-  color: var(--header-text-color);
+  color: var(--blue-color);
 }
 .nav-menu-list{
   display: flex;
@@ -19,7 +21,6 @@
   text-decoration: none;
   color: #000;
   text-transform: uppercase;
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 1.6rem;
 }
