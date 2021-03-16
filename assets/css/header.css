@@ -1,0 +1,25 @@
+
+.header{
+  
+  --header-text-color:#34547A;
+}
+.logo{
+  position: relative;
+  top: -10px;
+  font-family: "Revalia";
+  font-size: 4.8rem;
+  color: var(--header-text-color);
+}
+.nav-menu-list{
+  display: flex;
+  justify-content: space-between;
+
+}
+.nav-menu-link{
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 1.6rem;
+}
