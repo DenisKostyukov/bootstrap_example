@@ -6,8 +6,8 @@
 }
 
 .nav-mobile {
-  display: block;
-  position: relative;
+  display: none;
+  
   width: var(--btn-size);
   height: var(--btn-size);
   right: 0;

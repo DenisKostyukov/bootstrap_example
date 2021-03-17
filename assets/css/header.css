@@ -1,12 +1,10 @@
 
 .header{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+background-color: var(--bg-color);
 }
 .logo{
   position: relative;
+  text-align: left;
   top: -10px;
   font-family: "Revalia";
   font-size: 4.8rem;
@@ -23,4 +21,37 @@
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.6rem;
+  transition: .3s;
+}
+.nav-menu-link:hover{
+  color: var(--blue-color);
+}
+
+.nav-menu-mobile{
+  position: absolute;
+  top: 70px;
+  overflow:hidden;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  transition: all 1s;
+
+}
+.nav-menu-mobile-list{
+  flex-direction: column;
+}
+.active{
+  bottom:50%;
+  transition: all 1s;
+  display: block;
+}
+
+.nav-menu-mobile-list-item{
+  text-align: center;
+  padding: 10px 0;
+}
+
+.nav-menu-mobile-list-item + .nav-menu-mobile-list-item{
+  border-top: 2px solid var(--bg-color);
 }

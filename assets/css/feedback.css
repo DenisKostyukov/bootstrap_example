@@ -1,0 +1,32 @@
+.feedback{
+  background-color: var(--bg-color);
+}
+.feedback-form{
+  --size:45%;
+  margin: 0 auto;
+}
+.feedback-input::placeholder, .feedback-textarea::placeholder{
+  font-size: 1.4rem;
+  color:var(--input-text-color);
+}
+.feedback-input, .feedback-textarea{
+  outline: none;
+  border: none;
+  padding: 15px 30px;
+  
+}
+.feedback-input{
+  width: var(--size);
+  margin-top: 30px;
+}
+.feedback-input+.feedback-input{
+  margin-left: calc(100% - (var(--size)*2) - 3px);
+}
+.feedback-textarea{
+  width: 100%;
+  margin: 30px 0;
+}
+.feedback-btn{
+  display: block;
+  margin: 0 auto;
+}

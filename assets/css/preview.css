@@ -1,7 +1,7 @@
 .preview-title {
+  text-align: left;
   font-size: 4.8rem;
 }
-
 .wrapper-image {
   max-width: 350px;
 }
@@ -16,8 +16,7 @@
   margin: 60px 0;
 }
 
-.main-screen-wrapper {
-  padding-top: 50px;
-  min-height: 100vh;
+.preview {
+  background-color: var(--bg-color);
 
 }

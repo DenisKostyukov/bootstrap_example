@@ -1,0 +1,34 @@
+.container-wrapper{
+  padding: 50px 0;
+}
+
+.button{
+  background-color: var(--blue-color);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: var(--btn-text-color);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  text-align: left;
+  transition: .5s;
+}
+.button:hover{
+  background-color: #678ebe;
+}
+.title{
+  font-size: 3.2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.text{
+  font-size: 1.6rem;
+  max-width: 520px;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--text-color);
+}
+.img{
+  width: 100%;
+}

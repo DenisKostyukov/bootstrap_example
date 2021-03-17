@@ -1,0 +1,28 @@
+.footer{
+  background-color: var(--blue-color);
+}
+.author, .rights, .footer-link{
+  color: #fff;
+}
+.author{
+  font-weight: 500;
+  font-size: 2.1rem;
+  margin-bottom: 10px;
+}
+.rights{
+  font-size: 1.3rem;
+}
+.icons{
+  align-self: center;
+}
+.footer-link{
+  text-decoration: none;
+  font-size: 3rem;
+  transition: .4s;
+}
+.footer-link + .footer-link{
+  margin-left: 15px;
+}
+.footer-link:hover{
+  color:var(--text-color);
+}

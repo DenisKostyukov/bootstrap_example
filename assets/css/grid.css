@@ -18,6 +18,12 @@
   margin: 0 auto;
 }
 
+.no-gutters{
+  margin: 0;
+}
+.no-gutters > *{
+  padding: 0;
+}
 .align-items-center,
 .align-items-start,
 .align-items-end,
@@ -34,7 +40,6 @@
 .align-content-around {
   display: flex;
 }
-
 .align-items-center {
   align-items: center;
 }

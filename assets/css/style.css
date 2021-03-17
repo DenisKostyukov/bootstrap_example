@@ -1,14 +1,16 @@
 @import "../css/grid.css";
 @import "../css/root.css";
 @import "../css/font.css";
-@import "../css/image.css";
-@import "../css/title.css";
-@import "../css/text.css";
+@import "../css/common.css";
 @import "../css/header.css";
 @import "../css/preview.css";
-@import "../css/main-screen.css";
-@import "../css/button.css";
 @import "../css/nav-mobile-btn.css";
+@import "../css/portfolio.css";
+@import "../css/skills.css";
+@import "../css/work.css";
+@import "../css/projects.css";
+@import "../css/feedback.css";
+@import "../css/footer.css";
 @import "../css/responsive.css";
 
 :root{

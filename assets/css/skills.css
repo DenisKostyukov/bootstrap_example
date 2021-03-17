@@ -1,0 +1,20 @@
+.skills-title{
+  text-align: left;
+}
+.item-title{
+  font-size: 1.6rem;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+.progress{
+  position: relative;
+  width: 90%;
+  height: 5px;
+  background: linear-gradient(90deg, var(--blue-color) 70%, #c4c4c4 0%);
+}
+.skills-wrapper{
+  row-gap: 20px;
+}
+.mySkills-article{
+  align-self: center;
+}
