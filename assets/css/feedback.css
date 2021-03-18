@@ -5,7 +5,7 @@
   --size:45%;
   margin: 0 auto;
 }
-.feedback-input::placeholder, .feedback-textarea::placeholder{
+.feedback-input, .feedback-textarea, .feedback-input::placeholder, .feedback-textarea::placeholder{
   font-size: 1.4rem;
   color:var(--input-text-color);
 }
