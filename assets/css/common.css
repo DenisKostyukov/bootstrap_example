@@ -1,3 +1,8 @@
+:root{
+  font-size: 10px;
+  font-family: "Roboto";
+  --gray-bg-color:#EEEFF1;
+}
 .container-wrapper{
   padding: 50px 0;
 }

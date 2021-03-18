@@ -19,6 +19,10 @@
 }
 
 @media (max-width:580px){
+ .row, .row>*{
+    margin: 0;
+
+  }
   .header-wrapper{
     padding: 0;
   }

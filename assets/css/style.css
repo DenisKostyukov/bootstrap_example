@@ -11,13 +11,10 @@
 @import "../css/projects.css";
 @import "../css/feedback.css";
 @import "../css/footer.css";
+@import "../css/nav-mobile.css";
 @import "../css/responsive.css";
 
-:root{
-  font-size: 10px;
-  font-family: "Roboto";
-  --gray-bg-color:#EEEFF1;
-}
+
 html, body{
   height: 100%;
 }

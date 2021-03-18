@@ -1,0 +1,28 @@
+.nav-menu-mobile{
+  position: absolute;
+  top: 70px;
+  overflow:hidden;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  transition: all 1s;
+
+}
+.nav-menu-mobile-list{
+  flex-direction: column;
+}
+.active{
+  bottom:calc(100% - 260px);
+  transition: all 1s;
+  display: block;
+}
+
+.nav-menu-mobile-list-item{
+  text-align: center;
+  padding: 10px 0;
+}
+
+.nav-menu-mobile-list-item + .nav-menu-mobile-list-item{
+  border-top: 2px solid var(--bg-color);
+}
